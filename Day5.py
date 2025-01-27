@@ -10,14 +10,6 @@ def get_positive_integer():
         except ValueError:
             print("Invalid input. Please enter a valid positive integer.")
 
-# Main program
-def main():
-    n = get_positive_integer()
-
-    # Task 2: Print all numbers from 1 to n using a for loop
-    print("\nNumbers from 1 to", n, ":")
-    for i in range(1, n + 1):
-        print(i)
 
     # Task 3: Calculate the sum of all numbers from 1 to n using a while loop
     sum_of_numbers = 0
